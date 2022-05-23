@@ -1,0 +1,62 @@
+/* 워너비부분 제목 중앙정렬 및 크기설정 */
+.main_wannabe .main_wannabe-intro {
+    text-align: center;
+    margin: var(--main-padding) auto;
+    font-size: var(--head-size);
+    font-weight: bold;
+}
+/* 뉴스부분  제목 중앙정렬 및 아래쪽 플렉스 설정 */
+.main_wannabe .main_wannabe-newstitle {
+    display: flex;
+    flex-direction: column;
+    margin: 0 var(--main-padding);
+}
+/* 뉴스 헤드라인 부분 중앙 정렬 크기조정 */
+.main_wannabe .main_wannabe-newstitle h1{
+    text-align: center;
+    font-size: var(--main-padding);
+    margin: var(--main-margin);
+    font-weight: bold;
+}
+/* 시간부분 색 설정 */
+.main_wannabe .main_wannabe-newstitle .main_wannabe-newstime{
+    color:var(--light-grey-color);
+}
+/* 기자부분 색 설정 및 오른쪽 정렬 */
+.main_wannabe .main_wannabe-newstitle .main_wannabe-newswriter{
+    text-align: right;
+    color:var(--light-grey-color);
+}
+/* 뉴스 메인 부분 크기 조정 및 경계선 설정 */
+.main_wannabe .main_wannabe-newsmain {
+    display: flex;
+    margin:var(--top-margin);
+    border-bottom : 2px solid var(--border-color);
+    padding-bottom: var(--main-padding);
+}
+/* 뉴스 이미지박스 부분 크기조정 */
+.main_wannabe .main_wannabe-newsmain .main_wannabe-newsimgbox{
+    height: 500px;
+    width: auto;
+    margin-right: var(--main-margin);
+}
+/* 뉴스 이미지 크기조정 */
+.main_wannabe .main_wannabe-newsmain .main_wannabe-newsimgbox img{
+    width: 100%;
+    height:100%;
+    border-radius: 4%;
+}  
+/* 뉴스 텍스트 부분 크기조정 */ 
+.main_wannabe .main_wannabe-newsmain .main_wannabe-newstext{
+    display: flex;
+    flex-direction: column;
+    font-size:var(--news-size);  
+    align-items: center;
+    justify-content: center; 
+    line-height: 30px;
+}
+/* 해시 태그 부분 색 설정 및 크기조정 */
+.main_wannabe .main_wannabe-newsmain .main_wannabe-newstext .main_wannabe-hashtag{
+    margin-bottom: var(--side-margin);
+    color:var(--blue-color);    
+} 

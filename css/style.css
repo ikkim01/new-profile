@@ -1,0 +1,48 @@
+@import "reset.css";
+@import "main_title.css";
+@import "main_sidebar.css";
+@import "main_intro.css";
+@import "main_hobby.css";
+@import "main_career.css";
+@import "main_wannabe.css";
+@import "main_contact.css";
+
+:root{
+    /* 기본색 */
+    --white-color : #fff;
+    --blue-color : #0071e3;
+    --grey-color : rgb(48 48 48);
+    --font-color : rgb(208, 205, 205);
+    --background-color : #F2F2F2;
+    --orange-color : #bf4800;
+    --red-color : #FF4848;
+    --pink-color : #C90049;
+    --black-color: #000000;
+    --light-grey-color: #aeaeae;
+    --border-color: #e5e2e2;
+    --thumbs-color: #FAED7D;
+
+    /* 기본 사이즈 */
+    --top-margin: 30px;
+    --main-padding: 50px;
+    --side-margin:15px;
+    --main-margin:25px;
+    --logo-size: 20px;
+    --i-padding:5px;
+
+    /* 폰트 사이즈 */
+    --font-large:18px;
+    --font-small:13px;
+    --font-medium:14px;
+    --font-micro:10px;
+    --news-size:25px;
+    --emoji-size:35px;
+    --icon-size:20px;
+    --head-size:50px;
+    --text-h1-size:30px;
+    --contact-icon-size:100px;
+}
+/* 전체 스크롤 부드럽게 */
+*{
+    scroll-behavior: smooth;
+}
