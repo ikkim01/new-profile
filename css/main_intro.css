@@ -4,6 +4,7 @@
     margin: var(--main-padding) auto;
     font-size: var(--head-size);
     font-weight: bold;
+    padding-top: 60px;
 }
 /* 소개 파트 메인 부분 중앙정렬 및 밑 경계선 구분 */
 .main_intro .main_intro-introduce{

@@ -4,6 +4,7 @@
     margin: var(--main-padding) auto;
     font-size: var(--head-size);
     font-weight: bold;
+    padding-top: 30px;
 }
 /* 취미 파트 메인 크기 조정 및 경계선 설정 */
 .main_hobby .main_hobby-main {

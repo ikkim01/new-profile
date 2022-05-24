@@ -4,12 +4,14 @@
     margin: var(--main-padding) auto;
     font-size: var(--head-size);
     font-weight: bold;
+    padding-top: 30px;
 }
 /* 연락 부분 메인 사이즈 설정 */
 .main_contact .main_contact-icon {
     height: 500px;
     width: auto;
     display: flex;
+    justify-content: center;
 }
 /* 연락 부분 각 파트별 크기 설정 및 중앙정렬 */
 .main_contact .main_contact-icon ul{

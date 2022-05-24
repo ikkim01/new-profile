@@ -4,6 +4,7 @@
     margin: var(--main-padding) auto;
     font-size: var(--head-size);
     font-weight: bold;
+    padding-top: 30px;
 }
 /* 뉴스부분  제목 중앙정렬 및 아래쪽 플렉스 설정 */
 .main_wannabe .main_wannabe-newstitle {
@@ -30,6 +31,7 @@
 /* 뉴스 메인 부분 크기 조정 및 경계선 설정 */
 .main_wannabe .main_wannabe-newsmain {
     display: flex;
+    justify-content: center;
     margin:var(--top-margin);
     border-bottom : 2px solid var(--border-color);
     padding-bottom: var(--main-padding);
@@ -54,6 +56,7 @@
     align-items: center;
     justify-content: center; 
     line-height: 30px;
+    margin-left: var(--main-margin);
 }
 /* 해시 태그 부분 색 설정 및 크기조정 */
 .main_wannabe .main_wannabe-newsmain .main_wannabe-newstext .main_wannabe-hashtag{
