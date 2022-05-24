@@ -38,11 +38,19 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    transition: all 0.2s linear;
 }
-/* 메뉴에 올리면 아이콘 커지게 */
+/* 평소에는 아이콘만 보이도록 설정 */
+.main_sidebar .main_sidebar-hovermenu a p {
+    display: none;
+    font-size: var(--font-small);
+}
+/* 메뉴에 올리면 아이콘 없어지도록 */
 .main_sidebar .main_sidebar-hovermenu a:hover i{
-    transform: scale(1.3);
+    display: none;
+}
+/* 메뉴에 올리면 텍스트가 나오도록 */
+.main_sidebar .main_sidebar-hovermenu a:hover p {
+    display: inline;
 }
 /* 메인메뉴에 올리면 밑에 메뉴나오도록 */
 .main_sidebar:hover .main_sidebar-hovermenu {
