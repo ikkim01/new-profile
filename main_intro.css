@@ -1,0 +1,43 @@
+/* 소개 파트 제목 중앙정렬및 폰트크기 및 두껍게 */
+.main_intro .main_intro-head{
+    text-align: center;
+    margin: var(--main-padding) auto;
+    font-size: var(--head-size);
+    font-weight: bold;
+    padding-top: 60px;
+}
+/* 소개 파트 메인 부분 중앙정렬 및 밑 경계선 구분 */
+.main_intro .main_intro-introduce{
+    display: flex;
+    justify-content: center;
+    padding-bottom: var(--main-padding);
+    margin: 30px;
+    border-bottom : 2px solid var(--border-color);
+}
+/* 이미지 박스 크기설정 및 이미지 중앙정렬 */
+.main_intro .main_intro-introduce .main_intro-imagebox{
+    width: auto;
+    height:410px;
+    background-color: var(--background-color);
+    border-radius: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    margin:var(--main-margin); 
+}
+/* 이미지 크기 조정 및 둥글게 */
+.main_intro .main_intro-introduce .main_intro-imagebox img{
+    width: 90%;
+    height: 90%;
+    border-radius: 3%;
+}
+/* 글자 크기 및 글자정렬*/
+.main_intro .main_intro-introduce .main_intro-textbox{
+    margin: var(--main-margin);
+    padding: calc(var(--side-margin)*2);
+    font-size: calc(var(--font-small)*2);
+    font-weight: bold;
+    line-height: 50px;
+    background-color: var(--background-color);
+}

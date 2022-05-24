@@ -1,0 +1,76 @@
+/* 메인 타이틀 높이 설정 및 위 마진*/
+.main_title {
+    margin: var(--top-margin);
+    height: 650px;
+    width: auto;
+}
+/* 표지 투명하게 설정 (메인타이틀에 주니 애니메이션이 안됨)*/
+ .main_title .main_title-hellokr,
+ .main_title .main_title-helloeng,
+ .main_title .main_title-hellochn,
+ .main_title .main_title-scrollkr,
+ .main_title .main_title-scrolleng,
+ .main_title .main_title-scrollchn{
+    opacity: 0;
+}
+/* 안녕글자들 한자리에 고정, 사이즈 설정 ,가운데 고정*/
+ .main_title .main_title-hellokr,
+ .main_title .main_title-helloeng,
+ .main_title .main_title-hellochn {
+    position: absolute;
+    top:225px;
+    left:50%;
+    text-align: center;
+    font-size: 150px;
+    transform: translate(-50%, -50%);
+}
+/* 스크롤 글자들 한자리에 고정, 사이즈 설정 , 가운데 고정 */
+ .main_title .main_title-scrollkr,
+ .main_title .main_title-scrolleng,
+ .main_title .main_title-scrollchn{
+    position: absolute;
+    top:450px;
+    left:50%;
+    text-align: center;
+    font-size:  80px;
+    transform: translate(-50%, -50%);
+    color:var(--light-grey-color);
+    width: 1000px;
+}
+/* 아이콘이 너무 글자랑 너무 붙어있어 옆에 살짝 띄움 */
+ .main_title .main_title-scrollkr i,
+ .main_title .main_title-scrolleng i,
+ .main_title .main_title-scrollchn i {
+    padding-right:var(--side-margin);
+}
+/* 첫번째 한국어 애니메이션 24초로 설정 무한반복 */
+ .main_title .main_title-hellokr,
+ .main_title .main_title-scrollkr {
+    animation: fadeinoutkr 24s infinite;
+}
+/* 두번째 영어 애니메이션 24초로 설정 무한반복 */
+.main_title .main_title-helloeng,
+.main_title .main_title-scrolleng {
+   animation: fadeinouteng 24s infinite;
+}
+/* 세번째 중국어 애니메이션 24초로 설정 무한반복 */
+.main_title .main_title-hellochn,
+.main_title .main_title-scrollchn {
+   animation: fadeinoutchn 24s infinite;
+}
+/* 24초를 4초씩 나눠 16.5%씩 할당 */
+@keyframes fadeinoutkr {
+    0% {opacity: 0;}
+    16.5% {opacity: 1;}
+    33% {opacity: 0;}
+}
+@keyframes fadeinouteng {
+    0%, 33% {opacity: 0;}
+    49.5% {opacity: 1;}
+    66% {opacity: 0;}
+}
+@keyframes fadeinoutchn {
+    0%, 66% {opacity: 0;}
+    82.5% {opacity: 1;}
+    100% {opacity: 0;}
+}

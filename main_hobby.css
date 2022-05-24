@@ -1,0 +1,57 @@
+/* 취미 파트 제목부분 가운데정렬 폰트크기 조정 */
+.main_hobby .main_hobby-intro{
+    text-align: center;
+    margin: var(--main-padding) auto;
+    font-size: var(--head-size);
+    font-weight: bold;
+    padding-top: 30px;
+}
+/* 취미 파트 메인 크기 조정 및 경계선 설정 */
+.main_hobby .main_hobby-main {
+display: flex;
+justify-content: center;
+margin: 30px;
+padding-bottom: var(--main-padding);
+border-bottom : 2px solid var(--border-color);
+}
+/* 파트 개인별 크기 설정 및 가운데 정렬 */
+.main_hobby .main_hobby-main ul {
+width: 330px;
+height:500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0;
+background-color: var(--background-color);
+margin: var(--main-margin) calc(var(--side-margin)/2);
+border-radius: 3%;
+}
+/* 이미지 박스 크기 설정*/
+.main_hobby .main_hobby-main ul .main_hobby-imagebox{
+width: 250px;
+height:300px;
+margin-top: var(--main-margin);
+}
+/*이미지 크기 설정 및 커지는 애니메이션 효과 */
+.main_hobby .main_hobby-main ul .main_hobby-imagebox img{
+width: 100%;
+height: 100%;
+border-radius: 3%;
+transition: all 0.2s linear;
+}
+/* 커서 올렸을때 이미지 커지는 크기 설정 */
+.main_hobby .main_hobby-main ul .main_hobby-imagebox:hover img{
+transform: scale(1.3);
+}
+/* 취미 텍스트 부분 */
+.main_hobby .main_hobby-main ul .main_hobby-text {
+font-size: var(--font-large );
+margin-top: var(--main-margin);
+font-weight: bold;
+}
+/*취미 텍스트 설명 부분 */
+.main_hobby .main_hobby-main ul .main_hobby-textex{
+margin: var(--main-margin);
+text-align: center;
+line-height:  var(--main-margin);
+}
