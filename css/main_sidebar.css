@@ -56,3 +56,28 @@
 .main_sidebar:hover .main_sidebar-hovermenu {
     display: inline-block;
 }
+/* 버튼 누르기 전까지는 데이모드 아이콘이 안보이도록 설정 */
+.main_sidebar .main_sidebar-hovermenu .daymode {
+    width: 50px;
+    height: 50px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+/* 버튼 누르기전 나이트 모드 아이콘 설정 */
+.main_sidebar .main_sidebar-hovermenu .nightmode {
+    width: 50px;
+    height: 50px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

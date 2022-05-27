@@ -25,7 +25,7 @@
 .main_contact .main_contact-icon ul a{
     font-size: var(--contact-icon-size);
     text-decoration: none;
-    color: var(--white-color);
+    color: white;
     transition: all 0.2s linear;
 }
 /* 호버시 40퍼센트 증가 */

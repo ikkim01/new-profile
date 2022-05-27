@@ -46,3 +46,20 @@
 *{
     scroll-behavior: smooth;
 }
+
+.darkmode {
+    background-color: black;
+    color:white;
+    --white-color : #000000;
+    --blue-color : #0071e3;
+    --grey-color : rgb(48 48 48);
+    --font-color : rgb(208, 205, 205);
+    --background-color : rgb(48 48 48);
+    --orange-color : #bf4800;
+    --red-color : #FF4848;
+    --pink-color : #C90049;
+    --black-color: #fff;
+    --light-grey-color: rgb(48 48 48);
+    --border-color: rgb(48 48 48);
+    --thumbs-color: #FAED7D;
+}
