@@ -44,10 +44,16 @@
     --text-h1-size:30px;
     --contact-icon-size:100px;
 }
+@font-face {
+    font-family: 'Apple SD';
+    src: url(../font/Apple+산돌고딕+Neo/AppleSDGothicNeoB.ttf);
+}
 /* 전체 스크롤 부드럽게 */
 *{
     scroll-behavior: smooth;
+    font-family: 'Apple SD';
 }
+
 
 .darkmode {
     background-color: black;
