@@ -1,0 +1,51 @@
+@media screen and (max-width:1000px) {
+    .main_title .main_title-hellokr,
+    .main_title .main_title-helloeng,
+    .main_title .main_title-hellochn {
+       position: absolute;
+       top:225px;
+       left:50%;
+       text-align: center;
+       font-size: 100px;
+       transform: translate(-50%, -50%);
+       width: 1000px;
+   }
+    .main_title .main_title-scrollkr,
+    .main_title .main_title-scrolleng,
+    .main_title .main_title-scrollchn{
+    position: absolute;
+    top:450px;
+    left:50%;
+     text-align: center;
+    font-size:  60px;
+    transform: translate(-50%, -50%);
+    color:var(--light-grey-color);
+    width: 1000px;
+   }
+   .main_career .main_career-textbox {
+    height:535px;
+    width:600px;
+    background-color: var(--background-color);
+    border-radius: 5px;
+    margin: var(--side-margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main_wannabe .main_wannabe-newsmain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:var(--top-margin);
+    border-bottom : 2px solid var(--border-color);
+    padding-bottom: var(--main-padding);
+}
+.main_contact .main_contact-icon {
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}

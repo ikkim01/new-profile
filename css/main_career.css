@@ -10,6 +10,7 @@
 .main_career .main_career-main {
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin:var(--top-margin);
     border-bottom : 2px solid var(--border-color);
     padding-bottom: var(--main-padding);
@@ -35,7 +36,7 @@
 /* 텍스트 박스 크기설정 및 중앙정렬 */
 .main_career .main_career-textbox {
     height:535px;
-    width:450px;
+    width:auto;
     background-color: var(--background-color);
     border-radius: 5px;
     margin: var(--side-margin);

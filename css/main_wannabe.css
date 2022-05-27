@@ -40,7 +40,7 @@
 .main_wannabe .main_wannabe-newsmain .main_wannabe-newsimgbox{
     height: 500px;
     width: auto;
-    margin-right: var(--main-margin);
+    margin: var(--main-margin);
 }
 /* 뉴스 이미지 크기조정 */
 .main_wannabe .main_wannabe-newsmain .main_wannabe-newsimgbox img{

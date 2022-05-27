@@ -10,6 +10,7 @@
 .main_intro .main_intro-introduce{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding-bottom: var(--main-padding);
     margin: 30px;
     border-bottom : 2px solid var(--border-color);
@@ -34,10 +35,17 @@
 }
 /* 글자 크기 및 글자정렬*/
 .main_intro .main_intro-introduce .main_intro-textbox{
+    width: 670px;
+    height: 410px;
     margin: var(--main-margin);
-    padding: calc(var(--side-margin)*2);
-    font-size: calc(var(--font-small)*2);
-    font-weight: bold;
-    line-height: 50px;
     background-color: var(--background-color);
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_intro .main_intro-introduce .main_intro-textbox p {
+    font-size: var(--news-size);
+    font-weight: bold;
+    line-height: 45px;
 }

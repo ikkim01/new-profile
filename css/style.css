@@ -6,6 +6,8 @@
 @import "main_career.css";
 @import "main_wannabe.css";
 @import "main_contact.css";
+@import "media_1000px.css";
+@import "media_600px.css";
 
 :root{
     /* 기본색 */
@@ -63,3 +65,4 @@
     --border-color: rgb(48 48 48);
     --thumbs-color: #FAED7D;
 }
+
