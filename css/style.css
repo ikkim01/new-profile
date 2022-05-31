@@ -58,7 +58,7 @@
 
 @font-face {
     font-family: 'apple font';
-    src: url('../font/HelveticaNeueLTStd-Cn.otf') format('truetype');
+    src: url('../font/AppleSDGothicNeoM.ttf') format('truetype');
 }
 
 .darkmode {
