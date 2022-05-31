@@ -8,6 +8,9 @@
 @import "main_contact.css";
 @import "media_1000px.css";
 @import "media_600px.css";
+@import "media_400px.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');  
 
 :root{
     /* 기본색 */
@@ -44,16 +47,19 @@
     --text-h1-size:30px;
     --contact-icon-size:100px;
 }
-@font-face {
-    font-family: 'Apple SD';
-    src: url(../font/HelveticaNeueLTStd-Cn.otf);
-}
+
 /* 전체 스크롤 부드럽게 */
 *{
     scroll-behavior: smooth;
-    font-family: 'Apple SD';
+    font-family: 'Open Sans','Nanum Gothic', sans-serif;
+    /* max-width 100% 설정하면 모바일에서 한쪽으로 몰리는 경우가 사라짐. */
+    max-width: 100%;
 }
 
+@font-face {
+    font-family: 'apple font';
+    src: url('../font/HelveticaNeueLTStd-Cn.otf') format('truetype');
+}
 
 .darkmode {
     background-color: black;
@@ -72,4 +78,6 @@
     --thumbs-color: #FAED7D;
 }
 
-    
+body {
+    font-family: 'apple font';
+}
